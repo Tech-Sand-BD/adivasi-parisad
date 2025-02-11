@@ -29,14 +29,26 @@ const Navbar = () => {
             {/* Desktop Navbar Items */}
             <div className="hidden md:flex space-x-4 items-center">
               <Link href="/" className="text-black hover:text-gray-300">
-                Home
+                HOME
               </Link>
-              <Link href="/about" className="text-black hover:text-gray-300">
-                About
+              <Link href="/" className="text-black hover:text-gray-300">
+                OUR WORK
+              </Link>
+              <Link href="/" className="text-black hover:text-gray-300">
+                WHO WE ARE
+              </Link>
+              <Link href="/" className="text-black hover:text-gray-300">
+                PROJECTS
+              </Link>
+              <Link href="/" className="text-black hover:text-gray-300">
+                NEWS
+              </Link>
+              <Link href="/" className="text-black hover:text-gray-300">
+                SUPPORT US
               </Link>
 
               {/* Dropdown Menu for Desktop (on hover) */}
-              <div
+              {/* <div
                 className="relative"
                 onMouseEnter={() => setIsDropdownOpen(true)}
                 onMouseLeave={() => setIsDropdownOpen(false)}
@@ -70,7 +82,7 @@ const Navbar = () => {
                     </Link>
                   </div>
                 )}
-              </div>
+              </div> */}
             </div>
 
             {/* Mobile Menu Button */}
@@ -92,15 +104,30 @@ const Navbar = () => {
                 <Link href="/" className="px-4 py-2">
                   Home
                 </Link>
-                <Link href="/about" className="px-4 py-2">
-                  About
+                <Link href="/" className="px-4 py-2">
+                  OUR WORK
                 </Link>
-                <div className="relative">
+                <Link href="/" className="px-4 py-2">
+                  WHO WE ARE
+                </Link>
+                <Link href="/" className="px-4 py-2">
+                  PROJECTS
+                </Link>
+                <Link href="/" className="px-4 py-2">
+                  OUR WORK
+                </Link>
+                <Link href="/" className="px-4 py-2">
+                  NEWS
+                </Link>
+                <Link href="/" className="px-4 py-2">
+                  SUPPORT US
+                </Link>
+                {/* <div className="relative">
                   <button
                     onClick={toggleDropdown}
                     className="flex items-center w-full px-4 py-2"
                   >
-                    Services
+                    WHO WE ARE
                     <ChevronDown className="ml-1 w-4 h-4" />
                   </button>
                   {isDropdownOpen && (
@@ -125,7 +152,7 @@ const Navbar = () => {
                       </Link>
                     </div>
                   )}
-                </div>
+                </div> */}
               </div>
             </div>
           )}
