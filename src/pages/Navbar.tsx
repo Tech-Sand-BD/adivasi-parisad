@@ -28,23 +28,41 @@ const Navbar = () => {
 
             {/* Desktop Navbar Items */}
             <div className="hidden md:flex space-x-4 items-center">
-              <Link href="/" className="text-black hover:underline duration-300">
-                HOME
+              <Link
+                href="/"
+                className="text-black hover:underline duration-300"
+              >
+                হোম
               </Link>
-              <Link href="/" className="text-black hover:underline duration-300">
-                OUR WORK
+              <Link
+                href="/"
+                className="text-black hover:underline duration-300"
+              >
+                আমাদের কাজ
               </Link>
-              <Link href="/" className="text-black hover:underline duration-300">
-                WHO WE ARE
+              <Link
+                href="/"
+                className="text-black hover:underline duration-300"
+              >
+                আমরা কারা
               </Link>
-              <Link href="/" className="text-black hover:underline duration-300">
-                PROJECTS
+              <Link
+                href="/"
+                className="text-black hover:underline duration-300"
+              >
+                প্রকল্প
               </Link>
-              <Link href="/" className="text-black hover:underline duration-300">
-                NEWS
+              <Link
+                href="/"
+                className="text-black hover:underline duration-300"
+              >
+                খবর
               </Link>
-              <Link href="/" className="text-black hover:underline duration-300">
-                SUPPORT US
+              <Link
+                href="/"
+                className="text-black hover:underline duration-300"
+              >
+                আমাদের সমর্থন করুন
               </Link>
 
               {/* Dropdown Menu for Desktop (on hover) */}
@@ -84,7 +102,6 @@ const Navbar = () => {
                 )}
               </div> */}
             </div>
-
             {/* Mobile Menu Button */}
             <div className="md:hidden">
               <button
@@ -102,25 +119,25 @@ const Navbar = () => {
             <div className="md:hidden">
               <div className="flex flex-col items-center bg-[#658431] text-black py-2">
                 <Link href="/" className="px-4 py-2">
-                  Home
+                  হোম
                 </Link>
                 <Link href="/" className="px-4 py-2">
-                  OUR WORK
+                  আমাদের কাজ
                 </Link>
                 <Link href="/" className="px-4 py-2">
-                  WHO WE ARE
+                  আমরা কারা
                 </Link>
                 <Link href="/" className="px-4 py-2">
-                  PROJECTS
+                  আমরা কারা
                 </Link>
                 <Link href="/" className="px-4 py-2">
-                  OUR WORK
+                  প্রকল্প
                 </Link>
                 <Link href="/" className="px-4 py-2">
-                  NEWS
+                  খবর
                 </Link>
                 <Link href="/" className="px-4 py-2">
-                  SUPPORT US
+                  আমাদের সমর্থন করুন
                 </Link>
                 {/* <div className="relative">
                   <button

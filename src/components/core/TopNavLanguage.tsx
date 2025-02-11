@@ -15,8 +15,8 @@ export function TopNavLanguage() {
     React.useState<string>("English");
 
   const languages = [
+    { label: "বাংলা", icon: <Globe className="w-4 h-4 mr-2" /> },
     { label: "English", icon: <Globe className="w-4 h-4 mr-2" /> },
-    { label: "Bangla", icon: <Globe className="w-4 h-4 mr-2" /> },
   ];
 
   return (
