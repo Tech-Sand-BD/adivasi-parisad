@@ -35,31 +35,31 @@ const Navbar = () => {
                 হোম
               </Link>
               <Link
-                href="/"
+                href="/our-work"
                 className="text-black hover:underline duration-300"
               >
                 আমাদের কাজ
               </Link>
               <Link
-                href="/"
+                href="/who-we-are"
                 className="text-black hover:underline duration-300"
               >
                 আমরা কারা
               </Link>
               <Link
-                href="/"
+                href="/projects"
                 className="text-black hover:underline duration-300"
               >
                 প্রকল্প
               </Link>
               <Link
-                href="/"
+                href="/news"
                 className="text-black hover:underline duration-300"
               >
                 খবর
               </Link>
               <Link
-                href="/"
+                href="/support-us"
                 className="text-black hover:underline duration-300"
               >
                 আমাদের সমর্থন করুন
@@ -121,22 +121,20 @@ const Navbar = () => {
                 <Link href="/" className="px-4 py-2">
                   হোম
                 </Link>
-                <Link href="/" className="px-4 py-2">
+                <Link href="/out-work" className="px-4 py-2">
                   আমাদের কাজ
                 </Link>
-                <Link href="/" className="px-4 py-2">
+
+                <Link href="/who-we-are" className="px-4 py-2">
                   আমরা কারা
                 </Link>
-                <Link href="/" className="px-4 py-2">
-                  আমরা কারা
-                </Link>
-                <Link href="/" className="px-4 py-2">
+                <Link href="/projects" className="px-4 py-2">
                   প্রকল্প
                 </Link>
-                <Link href="/" className="px-4 py-2">
+                <Link href="/news" className="px-4 py-2">
                   খবর
                 </Link>
-                <Link href="/" className="px-4 py-2">
+                <Link href="/support-us" className="px-4 py-2">
                   আমাদের সমর্থন করুন
                 </Link>
                 {/* <div className="relative">

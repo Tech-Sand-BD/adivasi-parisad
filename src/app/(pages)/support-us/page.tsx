@@ -1,9 +1,12 @@
-import React from 'react'
+import JoinUs from "@/pages/JoinUs";
+import React from "react";
 
 const page = () => {
   return (
-    <div>page</div>
-  )
-}
+    <div>
+      <JoinUs />
+    </div>
+  );
+};
 
-export default page
+export default page;
