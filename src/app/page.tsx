@@ -4,6 +4,7 @@ import AboutThree from "@/pages/about/AboutThree";
 import AboutTwo from "@/pages/about/AboutTwo";
 import Footer from "@/pages/Footer";
 import Hero from "@/pages/Hero";
+import HeroSection from "@/pages/HeroSection";
 import JoinUs from "@/pages/JoinUs";
 import Navbar from "@/pages/Navbar";
 import StrategicPartnerships from "@/pages/StrategicPartnerships";
@@ -13,6 +14,7 @@ export default function page() {
   return (
     <>
       <Navbar />
+      <HeroSection />
       <Hero />
       <About />
       <AboutTwo />
