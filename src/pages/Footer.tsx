@@ -15,20 +15,18 @@ const Footer = () => {
 
         {/* Contact Information */}
         <div>
-          <h3 className="text-lg font-semibold mb-3">CONTACT</h3>
+          <h3 className="text-lg font-semibold mb-3">যোগাযোগ</h3>
           <p>
-            FSC Indigenous Foundation <br />
-            <strong>Address:</strong> Calle Gustavo Lara, Edificio 155 A/B,{" "}
-            <br />
-            Ciudad del Saber, Clayton, Ciudad de Panamá, Panamá. <br />
-            <strong>Phone Number:</strong> +507 310 2554 <br />
-            <strong>Email:</strong> fsc.if@fsc.org
+            জাতীয় আদিবাসী পরিষদের <br />
+            <strong>ঠিকানা:</strong> ঢাকা বাংলাদেশ <br />
+            <strong>ফোন নম্বর: </strong> +88 017xxxxxxxx <br />
+            <strong>ইমেল: </strong> jap.info@jap.org:
           </p>
         </div>
 
         {/* Links */}
         <div className="flex flex-col items-center md:items-start">
-          <h3 className="text-lg font-semibold mb-3">CONNECT</h3>
+          <h3 className="text-lg font-semibold mb-3">সংযোগ করুন</h3>
           <div className="flex space-x-4 mb-4">
             {/* Social Media Icons */}
             <a href="#" className="hover:text-gray-400">
@@ -46,22 +44,22 @@ const Footer = () => {
           </div>
           <nav className="space-y-2">
             <a href="#" className="hover:text-gray-400 block">
-              HOME
+              হোম
             </a>
             <a href="#" className="hover:text-gray-400 block">
-              OUR WORK
+              আমাদের কাজ
             </a>
             <a href="#" className="hover:text-gray-400 block">
-              WHO WE ARE
+              আমরা কারা
             </a>
             <a href="#" className="hover:text-gray-400 block">
-              PROJECTS
+              প্রকল্প
             </a>
             <a href="#" className="hover:text-gray-400 block">
-              NEWS
+              খবর
             </a>
             <a href="#" className="hover:text-gray-400 block">
-              SUPPORT US
+              আমাদের সমর্থন করুন
             </a>
           </nav>
         </div>
@@ -75,17 +73,11 @@ const Footer = () => {
               ENGLISH
             </a>
             <a href="#" className="hover:text-gray-400">
-              ESPAÑOL
-            </a>
-            <a href="#" className="hover:text-gray-400">
-              FRANÇAIS
-            </a>
-            <a href="#" className="hover:text-gray-400">
-              PORTUGUÊS
+              বাংলা
             </a>
           </div>
           <p className="text-gray-500">
-            © 2024 FSC Indigenous Foundation, some rights reserved.
+            © 2024 জাতীয় আদিবাসী পরিষদ, সর্বস্বত্ব সংরক্ষিত।
           </p>
         </div>
       </div>

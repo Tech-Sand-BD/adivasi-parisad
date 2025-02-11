@@ -13,11 +13,11 @@ export default function About() {
           <span className="text-yellow-500">G</span>lobal Strategy
         </div>
         <p className="text-white text-[20px] max-w-xl mb-6 ">
-          By, with, and for Indigenous Peoples to promote and support
-          Indigenous-led actions and solutions.
+          আদিবাসীদের দ্বারা, তাদের সাথে, এবং তাদের পক্ষে আদিবাসীদের নেতৃত্বাধীন
+          কর্মকাণ্ড এবং সমাধানগুলিকে প্রচার এবং সমর্থন করা।
         </p>
         <button className="bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-4 rounded">
-          Learn More
+          আরও জানুন
         </button>
       </div>
     </section>

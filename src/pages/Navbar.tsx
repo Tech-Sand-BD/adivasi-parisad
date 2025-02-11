@@ -28,22 +28,22 @@ const Navbar = () => {
 
             {/* Desktop Navbar Items */}
             <div className="hidden md:flex space-x-4 items-center">
-              <Link href="/" className="text-black hover:text-gray-300">
+              <Link href="/" className="text-black hover:underline duration-300">
                 HOME
               </Link>
-              <Link href="/" className="text-black hover:text-gray-300">
+              <Link href="/" className="text-black hover:underline duration-300">
                 OUR WORK
               </Link>
-              <Link href="/" className="text-black hover:text-gray-300">
+              <Link href="/" className="text-black hover:underline duration-300">
                 WHO WE ARE
               </Link>
-              <Link href="/" className="text-black hover:text-gray-300">
+              <Link href="/" className="text-black hover:underline duration-300">
                 PROJECTS
               </Link>
-              <Link href="/" className="text-black hover:text-gray-300">
+              <Link href="/" className="text-black hover:underline duration-300">
                 NEWS
               </Link>
-              <Link href="/" className="text-black hover:text-gray-300">
+              <Link href="/" className="text-black hover:underline duration-300">
                 SUPPORT US
               </Link>
 
@@ -54,7 +54,7 @@ const Navbar = () => {
                 onMouseLeave={() => setIsDropdownOpen(false)}
               >
                 <button
-                  className="text-black flex items-center hover:text-gray-300"
+                  className="text-black flex items-center hover:underline duration-300"
                   aria-haspopup="true"
                 >
                   Services

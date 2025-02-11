@@ -17,33 +17,33 @@ import "swiper/css/pagination";
 const slides = [
   {
     id: 1,
-    title: "Indigenous Cultural Landscapes",
+    title: "আদিবাসী সাংস্কৃতিক ভূদৃশ্য",
     description:
-      "Designing and promoting Indigenous Cultural Landscapes approaches to catalyze and create resilience for Indigenous governance, self-development, and financial sustainability of Indigenous territories and communities.",
+      "আদিবাসী অঞ্চল এবং সম্প্রদায়ের আদিবাসী শাসন, স্ব-উন্নয়ন এবং আর্থিক স্থায়িত্বের জন্য অনুঘটক এবং স্থিতিস্থাপকতা তৈরির জন্য আদিবাসী সাংস্কৃতিক ভূদৃশ্যের পদ্ধতির নকশা এবং প্রচার।",
     icon: TreePine,
     color: "bg-[#75B556]",
   },
   {
     id: 2,
-    title: "Indigenous Grants & Funding",
+    title: "আদিবাসী অনুদান এবং তহবিল",
     description:
-      "Developing Indigenous-led grantmaking instruments to promote Indigenous-led funding management by balancing learning-by-doing and de-risking management approaches.",
+      "আদিবাসীদের নেতৃত্বে অনুদান প্রদানের উপকরণ তৈরি করা যাতে আদিবাসীদের নেতৃত্বে তহবিল ব্যবস্থাপনাকে উৎসাহিত করা যায়, যাতে শেখার মাধ্যমে কাজ করা এবং ঝুঁকিমুক্ত ব্যবস্থাপনা পদ্ধতির ভারসাম্য বজায় রাখা যায়।",
     icon: Coins,
     color: "bg-[#75B556]",
   },
   {
     id: 3,
-    title: "Indigenous Capacity Development",
+    title: "আদিবাসী সক্ষমতা উন্নয়ন",
     description:
-      "Engaging multi-sectoral partners to develop and facilitate capacity development and social learning exchange with Indigenous and non-Indigenous stakeholders.",
+      "আদিবাসী এবং অ-আদিবাসী স্টেকহোল্ডারদের সাথে সক্ষমতা উন্নয়ন এবং সামাজিক শিক্ষা বিনিময় বিকাশ এবং সহজতর করার জন্য বহু-ক্ষেত্রীয় অংশীদারদের সম্পৃক্ত করা।",
     icon: GraduationCap,
     color: "bg-[#75B556]",
   },
   {
     id: 2,
-    title: "Indigenous Grants & Funding",
+    title: "আদিবাসীদের পক্ষে ওকালতি এবং দৃশ্যমানতা",
     description:
-      "Developing Indigenous-led grantmaking instruments to promote Indigenous-led funding management by balancing learning-by-doing and de-risking management approaches.",
+      "আদিবাসী স্বার্থকে অন্তর্ভুক্ত এবং প্রভাবিত করার জন্য জাতীয়, আঞ্চলিক এবং আন্তঃআঞ্চলিক স্তরে বহু-ক্ষেত্র সংলাপ এবং সহযোগিতার সুবিধা প্রদান করা।",
     icon: Coins,
     color: "bg-[#75B556]",
   },
@@ -62,7 +62,7 @@ export default function SliderSection() {
     <section className="relative w-full bg-background py-12 md:py-24">
       <div className="container mx-auto px-4">
         <h1 className="text-center text-4xl font-bold mb-16">
-          Transforming the world through:
+          এর মাধ্যমে বিশ্বকে রূপান্তরিত করা:
         </h1>
 
         <div className="relative max-w-7xl mx-auto">
@@ -114,13 +114,13 @@ export default function SliderSection() {
           </Swiper>
 
           <button
-            className="swiper-button-prev absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-white/90 p-3 rounded-full shadow-lg transition-transform hover:scale-110 hover:bg-white"
+            className="swiper-button-prev absolute left-0 top-1/2 -translate-y-1/2 z-10  p-3 rounded-full shadow-lg transition-transform hover:scale-110 "
             aria-label="Previous slide"
           >
             <ChevronLeft className="w-6 h-6" />
           </button>
           <button
-            className="swiper-button-next absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-white/90 p-3 rounded-full shadow-lg transition-transform hover:scale-110 hover:bg-white"
+            className="swiper-button-next absolute right-0 top-1/2 -translate-y-1/2 z-10  p-3 rounded-full shadow-lg transition-transform hover:scale-110 "
             aria-label="Next slide"
           >
             <ChevronRight className="w-6 h-6" />

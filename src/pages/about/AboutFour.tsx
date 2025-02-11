@@ -9,16 +9,14 @@ export default function AboutFour() {
 
       {/* Content at the bottom */}
       <div className="absolute inset-x-0 bottom-8 z-10 max-w-[1250px] mx-auto px-8  ">
-        <div className="text-white text-5xl font-bold mb-4">
-          <span className="text-yellow-500">I</span>IPARD
-        </div>
+        <div className="text-white text-5xl font-bold mb-4">আইপার্ড</div>
         <p className="text-white text-[20px] max-w-xl mb-6 ">
-          IPARD is a global development alliance convening multi-sector partners
-          to secure Indigenous Peoples’ rights, strengthen capacities and
-          catalyze economic self-development.
+          আইপার্ড একটি বিশ্বব্যাপী উন্নয়ন জোট যা আদিবাসীদের অধিকার সুরক্ষিত
+          করতে, সক্ষমতা জোরদার করতে এবং অর্থনৈতিক স্ব-উন্নয়নকে অনুঘটক করার জন্য
+          বহু-ক্ষেত্রের অংশীদারদের আহ্বান করে।
         </p>
         <button className="bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-4 rounded">
-          Learn about IPARD
+          IPARD সম্পর্কে জানুন
         </button>
       </div>
     </section>

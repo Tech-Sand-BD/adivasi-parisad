@@ -18,13 +18,14 @@ export default function WorkTestimonial() {
         {/* Right Content Section */}
         <div className="flex flex-col justify-center p-8 bg-gray-800 rounded-r-lg">
           <h2 className="text-3xl font-bold mb-4">
-            Are you interested in our work?
+            আপনি কি আমাদের কাজে আগ্রহী?
           </h2>
           <p className="mb-4 text-gray-300">
-            Discover how you can participate and support our actions.
+            আপনি কীভাবে আমাদের কার্যক্রমে অংশগ্রহণ করতে এবং সমর্থন করতে পারেন তা
+            আবিষ্কার করুন।
           </p>
           <button className="bg-green-500 w-[200px] text-black px-4 py-2 rounded-lg shadow hover:bg-green-400">
-            GET INVOLVED
+            জড়িত হন
           </button>
         </div>
       </div>

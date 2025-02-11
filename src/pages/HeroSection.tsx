@@ -12,22 +12,22 @@ const slides = [
   {
     image: "/one.jpg",
     title:
-      "We seek to connect Indigenous rights, self-development, and sustainable resource management approaches to Indigenous Peoples forest-nature-climate-based solutions.",
+      "আমরা আদিবাসীদের দৃষ্টিভঙ্গি, মূল্যবোধ, জ্ঞান, পূর্বপুরুষের অনুশীলন এবং অধিকার দ্বারা পরিচালিত টেকসই অর্থনৈতিক উন্নয়ন, টেকসই বন ব্যবস্থাপনা এবং জলবায়ু কর্মকাণ্ডের সাথে সংযোগ স্থাপনের জন্য উদ্ভাবনী সুযোগ তৈরি করতে চাই।",
   },
   {
     image: "two.jpeg",
     title:
-      "We seek to connect Indigenous rights, self-development, and sustainable resource management approaches to Indigenous Peoples forest-nature-climate-based solutions.",
+      "আমরা আদিবাসীদের অধিকার, স্ব-উন্নয়ন এবং টেকসই সম্পদ ব্যবস্থাপনার পদ্ধতিগুলিকে আদিবাসীদের বন-প্রকৃতি-জলবায়ু-ভিত্তিক সমাধানের সাথে সংযুক্ত করতে চাই।",
   },
   {
     image: "three.jpeg",
     title:
-      "We seek to connect Indigenous rights, self-development, and sustainable resource management approaches to Indigenous Peoples forest-nature-climate-based solutions.",
+      "আমরা আদিবাসীদের নিজস্ব ব্যবস্থা, অধিকার এবং ঐতিহ্যবাহী জ্ঞানের ভিত্তিতে বন, প্রকৃতি এবং অঞ্চল ব্যবস্থাপনায় পূর্ণ এবং কার্যকর অংশগ্রহণকে উৎসাহিত করি।",
   },
   {
     image: "four.jpeg",
     title:
-      "We seek to connect Indigenous rights, self-development, and sustainable resource management approaches to Indigenous Peoples forest-nature-climate-based solutions.",
+      "আমাদের আইপার্ড প্রোগ্রামের লক্ষ্য হল বিশ্বব্যাপী আদিবাসীদের তাদের দৃষ্টিভঙ্গি এবং অধিকারের ভিত্তিতে তাদের সম্প্রদায়গুলিকে পরিচালনা এবং বিকাশ করতে সক্ষম করা।",
   },
 ];
 
@@ -65,7 +65,7 @@ function HeroSlider() {
                     size="lg"
                     className="bg-green-600 hover:bg-green-700 text-white"
                   >
-                    Learn more about work
+                    আমাদের কাজ সম্পর্কে জানুন
                   </Button>
                 </div>
               </div>
