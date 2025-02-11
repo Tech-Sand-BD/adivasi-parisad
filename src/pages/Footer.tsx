@@ -9,7 +9,7 @@ const Footer = () => {
         {/* Logo and Description */}
         <div className="flex flex-col items-center md:items-start">
           <Link href="/" className="text-black text-2xl font-bold">
-            <Image src="/footer-logo.png" width={250} height={250} alt="logo" />
+            <Image src="/logo.png" width={250} height={250} alt="logo" />
           </Link>
         </div>
 
